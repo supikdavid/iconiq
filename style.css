@@ -1,0 +1,727 @@
+/*
+Theme Name: Iconiq
+Author: Petr Homoky (WP kodér)
+Author URI: http://wpkoder.cz
+Version: 1.0
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext);
+
+html, body {padding: 0;  margin: 0;}
+html { height: 100%;}
+body { position: relative; min-height: 100%;}
+
+.wrapper { width: 100%; max-width: 1044px; margin: 0 auto; position: relative;z-index: 10;}
+
+#toolbar-desktop {
+    width: 100%;
+    height: 28px;
+    background: url(img/toolbar-bg.png) center center repeat-x;
+    position: relative;
+    z-index: 10;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+#toolbar-desktop a { color: #ffffff;}
+
+#toolbar-desktop ul.toolbar-links {   display: inline-block;  list-style: none;padding: 0;}
+
+#toolbar-desktop ul.toolbar-links > li {
+    display: inline-block;
+    margin-left: 22px;
+}
+
+#header {
+    min-height: 117px;
+    margin-top: 204px;
+    margin-bottom: 1px;
+    background-color: #000000;
+    position: relative;
+}
+
+#header .logo {
+    background: url(img/logo.png) center center no-repeat;
+    width: 129px;
+    height: 69px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: -45px;
+    display: inline-block;
+}
+
+#header .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#header .main-menu {
+    display: inline-block;
+    margin-right: 97px;
+    margin-top: 70px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    float: right;
+}
+
+#header .main-menu > ul {
+    display: block;
+    margin: 0;
+}
+
+#header .main-menu > ul > li {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+#header .main-menu > ul > li.active a {
+    color: #ff0000;
+}
+
+#header .main-menu > ul > li > a {
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#header .social-icons {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+#header .social-icons .search-button {
+    display: inline-block;
+    background: url(img/search-button.png) center center no-repeat;
+    width: 17px;
+    height: 18px;
+    margin-bottom: 2px;
+}
+
+#header .social-icons .fb-icon {
+    display: inline-block;
+    background: url(img/fb-icon.png) center center no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-left: 13px;
+}
+
+#header .social-icons .twitter-icon {
+    display: inline-block;
+    background: url(img/twitter-icon.png) center center no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-left: 7px;
+}
+
+#background-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center top;
+    background-repeat: repeat;
+    z-index: 0;
+}
+
+#background-placeholder a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    min-height: 100px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#footer {
+    min-height: 300px;
+    background-color: #ffffff;
+    padding: 0 12px;
+}
+
+#footer .logo-footer {
+    background: url(img/logo-black.png) center center no-repeat;
+    width: 97px;
+    height: 52px;
+    margin-left: 29px;
+    margin-top: 21px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#footer .logo-footer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#footer .footer-menu {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 50px;
+    line-height: 18px;
+    margin-bottom: 45px;
+}
+
+#footer .footer-menu > ul {
+    display: block;
+    margin: 0;
+}
+
+#footer .footer-menu > ul > li {
+    display: inline-block;
+    margin-left: 15px;
+    border-right: 1px solid #c9c9c9;
+    padding-right: 15px;
+}
+
+#footer .footer-menu > ul > li:last-of-type {
+    border-right: 0;
+    padding-right: 0;
+}
+
+#footer .footer-menu > ul > li.active a {
+    color: #ff2400;
+}
+
+#footer .footer-menu > ul > li > a {
+    color: #000000;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#footer .footer-line-desktop {
+    border-bottom: 1px solid #e0e0e0;
+    height: 0;
+    width: 100%;
+    clear: both;
+}
+
+#footer .footer-copy {
+    font-size: 13px;
+    color: #717171;
+    margin-top: 53px;
+    margin-bottom: 85px;
+    margin-left: 17px;
+}
+
+#footer .footer-cfig {
+    font-size: 13px;
+    color: #717171;
+    margin-top: 40px;
+    margin-right: 21px;
+    margin-bottom: 60px;
+    float: right;
+}
+
+#footer  .footer-cfig .cfig-logo {
+    background: url(img/cfig-logo.png) center center no-repeat;
+    width: 129px;
+    height: 48px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#footer  .footer-cfig ul.menu-about {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+
+#footer  .footer-cfig ul.menu-about > li {
+    display: inline-block;
+    border-right: 1px solid #9b9b9b;
+    padding-right: 8px;
+    margin-left: 8px;
+}
+
+#footer  .footer-cfig ul.menu-about > li:last-of-type {
+    border-right: 0;
+    padding-right: 0;
+}
+
+#footer  .footer-cfig ul.menu-about > li > a {
+    color: #000000;
+    font-size: 13px;
+}
+
+#footer-placeholder {
+    height: 50px;
+}
+
+.advertisement-line {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #dfdfdf;
+    width: 100%;
+    height: 1px;
+    display: inline-block;
+    position: relative;
+}
+
+.advertisement-line > span {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.advertisement-line > span > span {
+    font-size: 12px;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0 8px;
+    display: inline-block;
+}
+
+.ad-wide {
+    width: 100%;
+}
+
+.ad-wide * {
+    width: 100%;
+}
+
+.carousel-home-top-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-home-top-wrapper .inner {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-home-top-wrapper .subwrapper {
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-home-top-wrapper .inner .item {
+    position: relative;
+}
+
+.carousel-home-top-wrapper .inner .item img {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.carousel-home-top-wrapper .inner .item .subtitle {
+    position: absolute;
+    z-index: 1;
+    font-size: 11px;
+    color: #878787;
+    height: 23px;
+    line-height: 23px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    bottom: 100px;
+    left: 26px;
+}
+
+.carousel-home-top-wrapper .inner .item .subtitle span {
+    color: #000000;
+}
+
+.carousel-home-top-wrapper .inner .item .title {
+    position: absolute;
+    z-index: 1;
+    font-size: 35px;
+    color: #ffffff;
+    height: 76px;
+    line-height: 76px;
+    background-image: url(img/bg-black-80.png);
+    padding: 0 20px;
+    bottom: 24px;
+    left: 26px;
+}
+
+.carousel-home-top-wrapper .miniatures {
+    position: absolute;
+    z-index: 1;
+    width: 182px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(img/bg-black-80.png);
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.carousel-home-top-wrapper .miniatures .item {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.carousel-home-top-wrapper .miniatures .item .image {
+    position: relative;
+}
+
+.carousel-home-top-wrapper .miniatures .item.active .image .image-border, .carousel-home-top-wrapper .miniatures .item .image:hover .image-border {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 4px solid #ffffff;
+}
+
+.carousel-home-top-wrapper .miniatures .title {
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.carousel-home-top-wrapper .miniatures .subtitle {
+    display: none;
+}
+
+.carousel-home-top-wrapper .navigation {
+    position: absolute;
+    z-index: 1;
+    width: 94px;
+    height: 76px;
+    right: 206px;
+    bottom: 24px;
+    background-image: url(img/bg-black-80.png);
+    overflow: hidden;
+}
+
+.carousel-home-top-wrapper .navigation .left {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(img/nav-left.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel-home-top-wrapper .navigation .right {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(img/nav-right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel-home-top-wrapper .navigation .left:hover, .carousel-home-top-wrapper .navigation .right:hover {
+    opacity: 0.6;
+}
+
+.articles-container {
+    padding: 20px 0;
+    position: relative;
+}
+
+.articles-row {
+    margin-right: -7px;
+    margin-left: -7px;
+}
+
+.article-one {
+    height: 376px;
+    padding: 0 7px;
+    margin-bottom: 14px;
+    overflow: hidden;
+font-family: 'open sans';
+}
+
+.article-ad {
+    padding: 0 26px;
+}
+
+.article-one .inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.article-one .image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.article-one .infobox {
+    position: absolute;
+    bottom: 0;
+    left: 26px;
+    right: 26px;
+    z-index: 1;
+}
+
+.article-one .infobox .subtitle {
+    font-size: 11px;
+    color: #878787;
+    height: 29px;
+    line-height: 29px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    float: left;
+bottom: 164px;
+position: absoute;
+}
+
+.article-one .infobox .subtitle span {
+    color: #000000;
+margin-right: 8px
+}
+
+.article-one .infobox .title {
+    font-size: 13px;
+    line-height: 15px;
+    color: #ffffff;
+    padding: 15px 20px 12px 12px;
+	position: absoute;
+	bottom: 0;
+background: rgba(0, 0, 0, .8);
+left: 0;
+font-weight: 100;
+}
+
+.article-one .infobox .title > div {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 8px;
+}
+
+.carousel-iconiq-tv-wrapper {
+    height: 300px;
+    width: 100%;
+    background-color: #101010;
+    position: relative;
+}
+
+.carousel-iconiq-tv-wrapper .leftbar {
+    background-color: #000000;
+    background-image: url(img/iconiq-tv-leftbar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 206px;
+    height: 100%;
+}
+
+.carousel-iconiq-tv-wrapper .right {
+    position: absolute;
+    left: 206px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.carousel-iconiq-tv-wrapper .item {
+    height: 208px;
+    width: 177px;
+    background-color: #000000;
+    position: relative;
+    cursor: pointer;
+}
+
+.carousel-iconiq-tv-wrapper .item .image {
+    height: 106px;
+    width: 100%;
+    background-color: #000000;
+    background-size: cover;
+}
+
+.carousel-iconiq-tv-wrapper .play {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    top: 82px;
+    background-image: url(img/iconiq-tv-play.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel-iconiq-tv-wrapper .text {
+    display: table;
+}
+
+.carousel-iconiq-tv-wrapper .text div {
+    display: table-cell;
+    vertical-align: middle;
+    height: 101px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.carousel-iconiq-tv-wrapper .carousel {
+    width: 80%;
+    margin: 37px auto 19px auto;
+    position: relative;
+}
+
+.carousel-iconiq-tv-wrapper .carousel .owl-controls {
+    position: absolute;
+    top: 95px;
+    width: 100%;
+}
+
+.carousel-iconiq-tv-wrapper .carousel .owl-controls .owl-prev {
+    position: absolute;
+    left: -50px;
+    width: 15px;
+    height: 29px;
+    background-image: url(img/iconiq-tv-left.png);
+    cursor: pointer;
+}
+
+.carousel-iconiq-tv-wrapper .carousel .owl-controls .owl-next {
+    position: absolute;
+    right: -20px;
+    width: 15px;
+    height: 29px;
+    background-image: url(img/iconiq-tv-right.png);
+    cursor: pointer;
+}
+
+.carousel-iconiq-tv-wrapper a.dalsi-videa {
+    text-align: center;
+    font-size: 12px;
+    color: #8f8f8f;
+    text-decoration: underline;
+    display: block;
+}
+
+.carousel-iconiq-tv-wrapper a.dalsi-videa:hover {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.articles-container h2 {
+font-family: 'open sans';
+font-weight: 200;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 28px;
+}
+
+.articles-container .button-more {
+    position: absolute;
+    top: 66px;
+    right: 34px;
+
+    line-height: 40px;
+    border: 3px solid black;
+    cursor: pointer;
+    display: block;
+    color: #000000;
+    font-size: 13px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-family: 'open sans';
+letter-spacing: 2px
+}
+
+.articles-container .button-more:hover {
+    text-decoration: underline;
+}
+
+.article-one.article-kolekce {
+    height: 456px;
+}
+
+.article-kolekce .bottom-area {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.article-kolekce .title {
+    font-size: 41px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+
+.article-kolekce:hover {
+    text-decoration: none;
+}
+
+.article-kolekce .button {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    width: 148px;
+    height: 34px;
+    line-height: 34px;
+    margin: 14px auto 34px auto;
+    background-image: url(img/bg-black-80.png);
+}
+
+.article-kolekce:hover .button {
+    background-image: url(img/bg-red-80.png);
+}
+
+
+.img{width: 100%; height:380px; background-size: cover;}
+
+.desc{position: absolute; bottom: 20px; left: 20px;}
+.title{ background: rgba(0, 0, 0, .8); left: 28px;  color: white; padding: 20px 28px;}
+.title h1{font-size: 50px; padding: 0; margin: 0; font-weight: 300; font-family: 'open sans';}
+.info{ background: #fff; left: 28px; width: initial; width: 214px; color: #000; padding: 8px 20px; font-size: 14px;font-family: 'open sans'; font-weight: 100}
+.info .bold{font-weight: 400; margin-right: 10px}
+
+.article-detail{font-family:'open sans'; font-size: 15px; font-weight: 100}
+.article-detail .bold{font-weight: 700}
+.article-detail h2{font-size: 15px; font-weight: 700; color: #000}
+.article-detail p{padding: 15px 0}
+.article-detail .left{float: left; width: 628px}
+.article-detail .right{float: right; width: 310px; margin-right: -10px; padding: 16px 0}
+.article-detail .right img{float: left; margin-right: 10px}
+.article-detail .right .article-author{min-height: 130px}
+.article-detail .right .article-author-title{color: #ff0000; font-size: 10px; padding-top: 16px; font-weight: 700; text-transform: uppercase}
+.article-detail .right .article-author-name{font-size: 19px; }
+.article-detail .right .article-author-more{font-size: 12px; }
+.article-detail .right .article-author-more a{ color: #a3a3a3; padding: 0; height: 10px; }
+.article-detail .right .social{float: left; margin-right: 6px; font-size: 14px}
+.article-detail .right .share{margin-top: 10px}
+.article-detail .right .social p{float: left; padding: 12px 12px 2px 4px; line-height: 20px; margin-top: -16px}
+.article-detail .right .social a{color: #000}
+.article-detail .right .social img:first-child{margin-left: 2px}
+.article-detail .right .tw{margin-right: 14px}
+.article-detail .right .button{margin: 0px; height: 20px}
+.article-detail .right .last{margin-top: -10px}
+.article-detail .right .button p{float: left; margin-top: -20px}
+.article-detail .author{font-size: 12px; font-weight: 700}
+.article-detail .carousel{width: 624px; text-align: center; border: solid 1px #e4e4e4; position: relative; height: 230px; margin-top: 40px; padding: 30px 20px 20px 20px}
+.article-detail .carousel .item{width: 152px;height: 152px;  border: solid 1px #e4e4e4; float: left; margin-right: 20px}
+.article-detail .carousel .p {position: absolute; width: 152px; height: 152px;  background-image: url(./img/p.png); top: 30px; display: none }
+.article-detail .carousel .item:hover > .p{display: block; cursor: pointer;} 
+.article-detail .carousel .previous{ background-image: url(./img/previous.png); position: absolute; top: 104px; cursor:pointer; height: 25px; width: 16px}
+.article-detail .carousel .next{ background-image: url(./img/next.png); position: absolute; top: 104px; right: 20px; cursor:pointer; height: 25px; width: 16px}
+.article-detail .carousel .display{margin-left: 44px; text-align: center}
+.article-detail .carousel .all{padding-top: 164px; font-size: 14px}
+.article-detail .carousel a{color: #000}

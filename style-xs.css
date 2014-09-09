@@ -1,0 +1,108 @@
+@media screen and (max-width: 650px) {
+  #header .mobile-switch {
+    background: url(img/mobile-switch-small.png) center center no-repeat;
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    top: 32px;
+  }
+
+  #header .logo {
+    width: 80px;
+    height: 69px;
+    margin-left: 25px;
+    margin-top: 2px;
+    margin-bottom: -45px;
+    display: inline-block;
+    background-size: contain;
+  }
+
+  #header .social-icons {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+  }
+
+  #header .social-icons .search-button {
+    display: inline-block;
+    background: url(img/search-button.png) center center no-repeat;
+    width: 17px;
+    height: 18px;
+    margin-bottom: 2px;
+  }
+
+  #header .social-icons .fb-icon {
+    display: inline-block;
+    background: url(img/fb-icon.png) center center no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-left: 13px;
+  }
+
+  #header .social-icons .twitter-icon {
+    display: inline-block;
+    background: url(img/twitter-icon.png) center center no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-left: 7px;
+  }
+
+  #footer .footer-copy {
+    margin-top: 66px;
+    padding: 0 60px;
+  }
+
+  #footer .footer-cfig {
+    position: relative;
+  }
+
+  #footer .footer-cfig ul.menu-about {
+    margin: 0;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    left: 0;
+    top: 80px;
+  }
+
+  .carousel-home-top-wrapper {
+    display: none;
+  }
+
+  .carousel-iconiq-tv-wrapper {
+    display: none;
+  }
+
+  h2 {
+      font-size: 27px;
+  }
+
+  .articles-container h2 {
+      padding: 0 20px;
+      text-align: center;
+      padding-bottom: 34px;
+      padding-top: 18px;
+  }
+
+  .articles-container .button-more {
+    position: static;
+    width: 170px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+
+.article-detail .socials{display: none}
+.article-detail .right .article-author{float: left; width: 100%}
+.article-detail .carousel{width: 300px; margin: 0 auto; margin-top: 40px; padding: 30px 30px 20px 30px}
+.article-detail .carousel .item{display: none; }
+.article-detail .carousel .item:first-child{display: block}
+.article-detail .carousel .display a{display: block}
+.article-detail .carousel .item:hover > .p{display: block; cursor: pointer;} 
+.article-detail .carousel .previous{ cursor:pointer;}
+.article-detail .carousel .next{ right: 30px; cursor:pointer; }
+.article-detail .carousel .display{margin-left: 42px; }
+.article-detail .carousel a{display: none}
+}
